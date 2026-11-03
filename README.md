@@ -6,6 +6,10 @@
 
 This repository distributes Rivo installers and update metadata. It also explains the engineering work behind the product; application source and user configuration are not distributed here.
 
+## How I build with AI
+
+**All of my development work presented here was done with AI assistance.** I use AI throughout implementation, debugging and validation. I understand programming and software engineering fundamentals, and use them to define requirements, guide the tools, review changes and check how the software actually behaves. I take responsibility for technical decisions and results.
+
 ## Product scope
 
 Rivo combines a compact desktop interface, voice or typed requests, dictation, local screen-context tools and optional external AI services. The implementation separates literal dictation from requests to act on the desktop. An ambiguous target, changed window or missing permission should stop an action rather than guess.
