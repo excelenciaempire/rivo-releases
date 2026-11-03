@@ -4,6 +4,22 @@
 
 [Download and release files](https://github.com/excelenciaempire/rivo-releases/releases/latest) · [Engineering](ENGINEERING.md) · [Contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
 
+## Inside the application
+
+### Assistant settings
+
+![Assistant settings](assets/rivo-asistente.png)
+
+Archived native Rivo v1.29.2 QA view; Spanish/dark interface. Settings and device choices use isolated test defaults, not a customer session.
+
+### Voice and shortcut settings
+
+![Voice and shortcut settings](assets/rivo-voz.png)
+
+Archived native Rivo v1.29.2 QA view; Spanish/dark interface. Settings and device choices use isolated test defaults, not a customer session.
+
+[Capture provenance](SCREENSHOTS.md)
+
 ## My contribution
 
 I develop the application workflow, Windows interaction, speech/provider integrations, settings, onboarding and packaging.
