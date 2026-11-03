@@ -1,33 +1,23 @@
-# Rivo by Riverz · Windows assistant
+# Rivo by Riverz
 
-**Voice input, dictation and desktop-assistance workflows for Windows.**
+**A Windows assistant for voice requests, dictation and desktop context.**
 
-[Latest release](https://github.com/excelenciaempire/rivo-releases/releases/latest) · [Engineering notes](ENGINEERING.md) · [Juan Rios](https://github.com/excelenciaempire)
+[Download and release files](https://github.com/excelenciaempire/rivo-releases/releases/latest) · [Engineering](ENGINEERING.md) · [Contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
 
-This repository distributes Rivo installers and update metadata. It also explains the engineering work behind the product; application source and user configuration are not distributed here.
+## My contribution
 
-## How I build with AI
+I develop the application workflow, Windows interaction, speech/provider integrations, settings, onboarding and packaging.
 
-**All of my development work presented here was done with AI assistance.** I use AI throughout implementation, debugging and validation. I understand programming and software engineering fundamentals, and use them to define requirements, guide the tools, review changes and check how the software actually behaves. I take responsibility for technical decisions and results.
+Rivo supports typed or spoken requests, literal dictation and selected screen context. Dictation inserts words as text instead of interpreting them as desktop commands. Other assistant requests use structured intent and Windows tools to act on supported targets.
 
-## Product scope
+**Python · Windows UI Automation · Speech integrations**
 
-Rivo combines a compact desktop interface, voice or typed requests, dictation, local screen-context tools and optional external AI services. The implementation separates literal dictation from requests to act on the desktop. An ambiguous target, changed window or missing permission should stop an action rather than guess.
+**All my development work presented here was done with AI assistance.** I use programming and software engineering fundamentals to define requirements, review code, test behavior and take responsibility for technical decisions.
 
-My work covers the application workflow, Windows interaction, speech/provider integration, settings, onboarding and packaging. This is a separate desktop-assistance product from the Riverz AI video editor.
+## Distribution
 
-**Python · Windows UI Automation · Speech integrations · Local and cloud-assisted workflows**
+This repository distributes Windows installers and update metadata; the application source is private. See [the release page](https://github.com/excelenciaempire/rivo-releases/releases/latest) for the current version. The implementation targets Windows 10/11 x64.
 
-## Releases
+Local dictation and cloud-assisted features have different requirements. Optional providers use each user's configuration and may charge for requests. Screen context and audio may be sent to the selected provider when those capabilities are enabled.
 
-The latest public release observed on 2026-11-03 is [v1.30.8](https://github.com/excelenciaempire/rivo-releases/releases/tag/v1.30.8), with `Rivo-Setup.exe` and `rivo-update.json`. Use the release page for the current version and files.
-
-The implementation documentation targets Windows 10/11 x64. Optional cloud capabilities require the user's own provider configuration and may incur provider charges; local and cloud functionality have different requirements.
-
-This portfolio review verified that the release assets exist. It did not independently verify installer signatures, install on a clean machine or exercise the current binary.
-
-## Privacy boundaries
-
-Screen regions, dictation and assistant context can contain private information. Local tools and optional provider requests must be distinguished; enabling an external provider does not make that request local-only. This repository contains no user captures, recordings, configuration files or provider credentials.
-
-[Professional contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
+Release assets are publicly available. Installer signing and clean-machine behavior have not been independently verified in this case study.

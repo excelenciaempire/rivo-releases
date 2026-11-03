@@ -1,23 +1,19 @@
-# Engineering notes
+# Rivo engineering
 
-## Literal dictation is a separate mode
+## Dictation and actions
 
-The implementation documentation separates inserting literal text from planning desktop actions. A dictated phrase that happens to name an application must not automatically become an instruction to open it. Protected or ambiguous fields need a safe fallback rather than an unintended send.
+Literal dictation is a separate mode. A phrase such as “open Chrome” remains text in that mode. If the target field changes or is protected, the implementation uses a clipboard fallback instead of an unintended send.
 
-## Typed decisions and explicit execution policy
+## Structured intent, explicit execution
 
-Model-assisted classification returns structured intent and parameters. Application code retains responsibility for target validation, cancellation, permissions and duplicate prevention. A model proposal alone is not evidence that the requested action completed.
+Model-assisted classification returns typed intent and parameters. The application retains target validation, cancellation, permissions and duplicate prevention. Ambiguous targets and changed windows stop an operation.
 
-## Context has several sources
+## Screen context
 
-Windows accessibility, local visual detections, user-selected screen regions and optional cloud visual requests provide different information. Control names and positions are not equivalent to understanding every screen pixel. A copied text description is not an image attachment.
+Windows accessibility, local detections, selected screen regions and optional cloud visual requests provide different information. Control names are not a complete image of the desktop. Copying context as text is distinct from attaching an actual screenshot.
 
-## Packaging is part of delivery
+## Delivery
 
-The private project includes packaging and native QA material, synthetic interaction fixtures and optional provider checks. A passing source test, a published installer and a verified clean-machine installation establish different things. This portfolio update changed documentation only and did not replace release binaries or update metadata.
+Packaging includes the application runtime while user configuration stays separate. Public release files, update metadata and native QA serve different roles; publishing an installer does not certify all Windows applications or its code-signing status.
 
-## Review boundary
-
-The case is based on reviewed private implementation documentation and public release metadata on 2026-11-03. It does not assert unrestricted desktop capability, a measured latency target, current binary-signature verification or successful execution in every Windows application.
-
-[Releases and overview](README.md)
+[Overview and releases](README.md)
