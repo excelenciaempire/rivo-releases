@@ -6,17 +6,12 @@
 
 ## Inside the application
 
-### Assistant settings
+<p>
+  <img src="assets/rivo-asistente.png" alt="Rivo assistant settings" width="320">
+  <img src="assets/rivo-voz.png" alt="Rivo voice and shortcut settings" width="320">
+</p>
 
-![Assistant settings](assets/rivo-asistente.png)
-
-Archived native Rivo v1.29.2 QA view; Spanish/dark interface. Settings and device choices use isolated test defaults, not a customer session.
-
-### Voice and shortcut settings
-
-![Voice and shortcut settings](assets/rivo-voz.png)
-
-Archived native Rivo v1.29.2 QA view; Spanish/dark interface. Settings and device choices use isolated test defaults, not a customer session.
+Archived native Rivo v1.29.2 QA captures: assistant settings and voice controls. Spanish/dark interface with isolated test defaults.
 
 [Capture provenance](SCREENSHOTS.md)
 
