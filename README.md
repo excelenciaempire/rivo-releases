@@ -6,6 +6,8 @@
 
 ## Inside the application
 
+[Explore the feature tour](FEATURES.md) · [Capture provenance](SCREENSHOTS.md)
+
 <p>
   <img src="assets/rivo-asistente.png" alt="Rivo assistant settings" width="320">
   <img src="assets/rivo-voz.png" alt="Rivo voice and shortcut settings" width="320">
@@ -14,6 +16,18 @@
 Archived native Rivo v1.29.2 QA captures: assistant settings and voice controls. Spanish/dark interface with isolated test defaults.
 
 [Capture provenance](SCREENSHOTS.md)
+
+### Setup and desktop context
+
+<p>
+  <img src="assets/rivo-onboarding-mode.png" alt="Choose a working mode" width="360">
+  <img src="assets/rivo-onboarding-practice.png" alt="Practice before use" width="360">
+  <img src="assets/rivo-screen-context.png" alt="Screen context" width="360">
+</p>
+
+Archived native QA views: mode setup, practice and screen-context settings. Spanish/dark with test state.
+
+[All 11 views and their operating boundaries](FEATURES.md).
 
 ## My contribution
 
