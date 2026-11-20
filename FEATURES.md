@@ -6,7 +6,7 @@
 
 | Gesture | What the card says (example) |
 | --- | --- |
-| Circle or box | *a circle around 'Descargar para Windows'* |
+| Circle or box | *a circle around 'Upgrade plan'* |
 | Underline | *underlining 'Total'* |
 | Arrow or line | *an arrow from 'Revenue' down to 'Recent Activity'* |
 | Scribble | *a scribble over 'Draft'* |

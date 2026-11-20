@@ -19,7 +19,7 @@ Free · Windows 10 and 11 · No account, no keys
 <br>
 
 <p align="center">
-  <img src="assets/rivo-hero.png" alt="Rivo open over a web page: the price is circled in orange and the tray at the top shows three captures, each with what was said and what the stroke surrounds" width="100%">
+  <img src="assets/rivo-hero.png" alt="Rivo open over a sales dashboard: the refunds number is circled in orange and the tray at the top shows three captures, each with what was said and what the stroke surrounds" width="100%">
 </p>
 
 ## How it works
@@ -30,7 +30,7 @@ Free · Windows 10 and 11 · No account, no keys
 
 ## Every card explains itself
 
-Rivo tells your agent what your stroke means, not just where it is. Each card carries what you said and a sentence like *"a circle around 'Descargar para Windows'"* or *"an arrow from 'Revenue' down to 'Recent Activity'"*. The text comes from Windows accessibility first and from on-device OCR when an app doesn't expose it.
+Rivo tells your agent what your stroke means, not just where it is. Each card carries what you said and a sentence like *"a circle around 'Upgrade plan'"* or *"an arrow from 'Revenue' down to 'Recent Activity'"*. The text comes from Windows accessibility first and from on-device OCR when an app doesn't expose it.
 
 <p align="center">
   <img src="assets/rivo-tray.png" alt="The Rivo tray with three cards and the Copy all button" width="640">
@@ -41,7 +41,7 @@ Rivo tells your agent what your stroke means, not just where it is. Each card ca
 **Copy all** puts every capture on the clipboard as a picture with its caption on top, plus a text version that names each image file, so it also works in a terminal.
 
 <p align="center">
-  <img src="assets/rivo-paste.png" alt="Three pasted captures, each captioned with what was said and the gesture: a circle around 'Tu agente ya tiene el código.', a circle around 'Descargar para Windows', a circle around 'para siempre'" width="100%">
+  <img src="assets/rivo-paste.png" alt="Three pasted captures, each captioned with what was said and the gesture: a circle around '$48,290', a circle around 'Upgrade plan', a circle around '$1,940 +21% vs last month'" width="100%">
 </p>
 
 ## Built for coding agents
@@ -63,14 +63,13 @@ Notes and dictation are transcribed on your computer, without internet. What you
 </p>
 
 <details>
-<summary><b>More: assistant mode and first run</b></summary>
+<summary><b>More: assistant mode</b></summary>
 <br>
 
 With your own TypeSafe and Groq keys, Rivo also becomes a voice assistant that carries out actions on your PC. It's optional; pointing, voice notes and agents work without it.
 
 <p align="center">
   <img src="assets/rivo-settings-asistente.png" alt="Assistant settings: mode and optional provider keys" width="380">
-  <img src="assets/rivo-first-run.png" alt="First run: choose the pointing shortcut" width="380">
 </p>
 
 </details>
@@ -80,11 +79,11 @@ With your own TypeSafe and Groq keys, Rivo also becomes a voice assistant that c
 1. Download **[Rivo-Setup.exe](https://github.com/excelenciaempire/rivo-releases/releases/latest/download/Rivo-Setup.exe)** and run it.
 2. Press **Ctrl three times** anywhere to start pointing.
 
-Rivo updates itself from this repository. Every version and its notes are on the [releases page](https://github.com/excelenciaempire/rivo-releases/releases). The interface is in Spanish; Rivo listens and answers in your language.
+Rivo updates itself from this repository. Every version and its notes are on the [releases page](https://github.com/excelenciaempire/rivo-releases/releases). Rivo listens and answers in your language.
 
 ## About these images
 
-Taken from Rivo 1.32.0 on a real web page ([riverzai.com/rivo](https://riverzai.com/rivo)). The ink, the tray, the captions and the gesture sentences were drawn by Rivo's own code; the settings windows are the app's real interface with test settings, so no personal data appears. More detail in [FEATURES.md](FEATURES.md) and [ENGINEERING.md](ENGINEERING.md).
+Made with Rivo 1.32.0 over a sample dashboard. The ink, the tray, the captions and the gesture sentences were drawn by Rivo's own code; the settings windows are the app's real interface with test settings, so no personal data appears. The app's menus are in Spanish today; the images show them in English. More detail in [FEATURES.md](FEATURES.md) and [ENGINEERING.md](ENGINEERING.md).
 
 ## About the project
 
