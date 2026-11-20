@@ -18,6 +18,16 @@
 
 <img src="assets/rivo-tray.png" alt="The tray with three cards" width="560">
 
+## Home
+
+Your captures as cards grouped by day (picture, what you said, what the stroke means), with copy and delete on each, and a line with your own numbers: captures, words dictated and days in a row, counted on your PC.
+
+<img src="assets/rivo-home.png" alt="Rivo's Home page" width="100%">
+
+## Language
+
+The whole app switches between English and Spanish in General → Language (default: your Windows language). The spoken language is a separate setting under Voice.
+
 ## Copy all
 
 One click puts every capture on the clipboard as an image with its caption, plus a text version. The text names each image file, so terminals like Claude Code or Codex can open them.
@@ -26,10 +36,10 @@ One click puts every capture on the clipboard as an image with its caption, plus
 
 ## Agents
 
-- One click in **Settings → Agents** connects Claude Code and Codex.
+- One click on the **Agents** page connects Claude Code and Codex.
 - The agent can read the current captures or wait until you finish pointing.
 
-<img src="assets/rivo-settings-agentes.png" alt="Agents settings" width="380">
+<img src="assets/rivo-settings-agentes.png" alt="Agents page" width="100%">
 
 ## Voice
 
@@ -37,13 +47,13 @@ One click puts every capture on the clipboard as an image with its caption, plus
 - Push-to-talk or toggle, with your own shortcut.
 - Automatic language detection.
 
-<img src="assets/rivo-settings-voz.png" alt="Voice settings" width="380">
+<img src="assets/rivo-settings-voz.png" alt="Voice page" width="100%">
 
 ## Optional assistant
 
 With your own TypeSafe and Groq keys, Rivo can carry out requests on your PC (open apps, type, click supported targets). Pointing, notes, Copy all and agents don't need any key.
 
-<img src="assets/rivo-settings-asistente.png" alt="Assistant settings" width="380">
+<img src="assets/rivo-settings-asistente.png" alt="Assistant page" width="100%">
 
 ## Updates
 

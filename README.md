@@ -36,6 +36,14 @@ Rivo tells your agent what your stroke means, not just where it is. Each card ca
   <img src="assets/rivo-tray.png" alt="The Rivo tray with three cards and the Copy all button" width="640">
 </p>
 
+## Everything you pointed at, in one place
+
+Rivo's home shows your captures as cards, grouped by day: the picture, what you said and what the stroke means. Copy or delete any of them, or copy them all at once.
+
+<p align="center">
+  <img src="assets/rivo-home.png" alt="Rivo's Home page: three captures from a sales dashboard, each with the note and the gesture sentence, and the Copy all and Point buttons" width="100%">
+</p>
+
 ## What lands in your chat
 
 **Copy all** puts every capture on the clipboard as a picture with its caption on top, plus a text version that names each image file, so it also works in a terminal.
@@ -49,8 +57,7 @@ Rivo tells your agent what your stroke means, not just where it is. Each card ca
 Connect Claude Code and Codex with one click. Then ask your agent to *"look at what I'm pointing at"*: it waits while you draw and receives each capture with your note and the gesture sentence.
 
 <p align="center">
-  <img src="assets/rivo-settings-agentes.png" alt="Agents settings: Claude Code and Codex connected" width="380">
-  <img src="assets/rivo-settings-general.png" alt="General settings: Ctrl x3 shortcut, start with Windows, language and sounds" width="380">
+  <img src="assets/rivo-settings-agentes.png" alt="Agents page: Claude Code and Codex connected" width="100%">
 </p>
 
 ## Your voice stays on your PC
@@ -58,18 +65,26 @@ Connect Claude Code and Codex with one click. Then ask your agent to *"look at w
 Notes and dictation are transcribed on your computer, without internet. What you point at stays on your PC until you paste it somewhere or a connected agent asks for it.
 
 <p align="center">
-  <img src="assets/rivo-settings-voz.png" alt="Voice settings: microphone, on-device transcription, push-to-talk shortcut" width="380">
-  <img src="assets/rivo-settings-senalar.png" alt="Pointing settings: listen while pointing, open from Print Screen" width="380">
+  <img src="assets/rivo-settings-voz.png" alt="Voice page: microphone, on-device transcription, spoken language, talk shortcut" width="100%">
+</p>
+
+## In English or Spanish
+
+Switch the whole app between English and Spanish in General → Language; it follows your Windows language out of the box. The language you speak is a separate setting, and Rivo understands many.
+
+<p align="center">
+  <img src="assets/rivo-settings-general.png" alt="General page: language, start with Windows, sounds" width="100%">
 </p>
 
 <details>
-<summary><b>More: assistant mode</b></summary>
+<summary><b>More: pointing options and assistant mode</b></summary>
 <br>
 
 With your own TypeSafe and Groq keys, Rivo also becomes a voice assistant that carries out actions on your PC. It's optional; pointing, voice notes and agents work without it.
 
 <p align="center">
-  <img src="assets/rivo-settings-asistente.png" alt="Assistant settings: mode and optional provider keys" width="380">
+  <img src="assets/rivo-settings-senalar.png" alt="Pointing page: pointing shortcut and options" width="100%">
+  <img src="assets/rivo-settings-asistente.png" alt="Assistant page: mode and optional keys" width="100%">
 </p>
 
 </details>
@@ -79,11 +94,11 @@ With your own TypeSafe and Groq keys, Rivo also becomes a voice assistant that c
 1. Download **[Rivo-Setup.exe](https://github.com/excelenciaempire/rivo-releases/releases/latest/download/Rivo-Setup.exe)** and run it.
 2. Press **Ctrl three times** anywhere to start pointing.
 
-Rivo updates itself from this repository. Every version and its notes are on the [releases page](https://github.com/excelenciaempire/rivo-releases/releases). Rivo listens and answers in your language.
+Rivo updates itself from this repository. Every version and its notes are on the [releases page](https://github.com/excelenciaempire/rivo-releases/releases).
 
 ## About these images
 
-Made with Rivo 1.32.0 over a sample dashboard. The ink, the tray, the captions and the gesture sentences were drawn by Rivo's own code; the settings windows are the app's real interface with test settings, so no personal data appears. The app's menus are in Spanish today; the images show them in English. More detail in [FEATURES.md](FEATURES.md) and [ENGINEERING.md](ENGINEERING.md).
+Made with Rivo 1.33 in English over a sample dashboard. The ink, the tray, the captions and the gesture sentences were drawn by Rivo's own code, and the windows are the app's real interface with test settings, so no personal data appears. More detail in [FEATURES.md](FEATURES.md) and [ENGINEERING.md](ENGINEERING.md).
 
 ## About the project
 
