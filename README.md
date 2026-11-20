@@ -24,11 +24,9 @@ Free · Windows 10 and 11 · No account, no keys
 
 ## How it works
 
-| | |
-| --- | --- |
-| **1. Press Ctrl three times** | The Rivo bar drops from the top of the screen. Your clicks keep working. |
-| **2. Draw and talk** | Circle, underline, box or arrow, and say what you want. Each stroke becomes a card. |
-| **3. Hand it over** | **Copy all** pastes the pictures and the text in any chat or terminal. Connected agents get it directly. |
+1. **Press Ctrl three times.** The Rivo bar drops from the top of the screen. Your clicks keep working.
+2. **Draw and talk.** Circle, underline, box or arrow, and say what you want. Each stroke becomes a card.
+3. **Hand it over.** **Copy all** pastes the pictures and the text in any chat or terminal. Connected agents get it directly.
 
 ## Every card explains itself
 
