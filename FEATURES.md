@@ -1,127 +1,52 @@
-# Feature tour
+# Rivo features
 
-Native application views cover setup, voice settings, screen context, assistant profiles, provider setup and update readiness.
+[Overview](README.md) · [Engineering](ENGINEERING.md) · [Download](https://github.com/excelenciaempire/rivo-releases/releases/latest)
 
-[Overview](README.md) · [Capture provenance](SCREENSHOTS.md)
+## Pointing
 
-[Assistant and dictation](#assistant-and-dictation) · [Screen and desktop](#screen-and-desktop) · [Profiles and providers](#profiles-and-providers) · [Updates](#updates) · [Onboarding](#onboarding)
+| Gesture | What the card says (example) |
+| --- | --- |
+| Circle or box | *a circle around 'Descargar para Windows'* |
+| Underline | *underlining 'Total'* |
+| Arrow or line | *an arrow from 'Revenue' down to 'Recent Activity'* |
+| Scribble | *a scribble over 'Draft'* |
 
-## Assistant and dictation
+- **Ctrl ×3** opens the bar from anywhere; **Esc** closes it. Clicks keep reaching your apps while you draw.
+- Strokes drawn close together, or with Ctrl held, join the same card.
+- The text under a stroke comes from Windows accessibility, and from on-device Windows OCR when an app doesn't expose it.
+- Up to 8 cards per session; delete any card from the tray.
 
-### Assistant behavior
+<img src="assets/rivo-tray.png" alt="The tray with three cards" width="560">
 
-Configure how the assistant responds and how requests are handled.
+## Copy all
 
-<img src="assets/rivo-asistente.png" alt="Assistant behavior" width="360">
+One click puts every capture on the clipboard as an image with its caption, plus a text version. The text names each image file, so terminals like Claude Code or Codex can open them.
 
-*Archived v1.29.2 native QA; Spanish/dark with isolated in-memory defaults.*
+<img src="assets/rivo-paste.png" alt="Pasted captures with captions" width="100%">
 
+## Agents
 
-### Voice and shortcut settings
+- One click in **Settings → Agents** connects Claude Code and Codex.
+- The agent can read the current captures or wait until you finish pointing.
 
-Choose voice and dictation behavior, the microphone and activation shortcuts.
+<img src="assets/rivo-settings-agentes.png" alt="Agents settings" width="380">
 
-<img src="assets/rivo-voz.png" alt="Voice and shortcut settings" width="360">
+## Voice
 
-*Archived v1.29.2 native QA; Spanish/dark with fixture devices.*
+- Voice notes while pointing and dictation, transcribed on the PC without internet.
+- Push-to-talk or toggle, with your own shortcut.
+- Automatic language detection.
 
+<img src="assets/rivo-settings-voz.png" alt="Voice settings" width="380">
 
-## Screen and desktop
+## Optional assistant
 
-### Screen context
+With your own TypeSafe and Groq keys, Rivo can carry out requests on your PC (open apps, type, click supported targets). Pointing, notes, Copy all and agents don't need any key.
 
-Configure visible-screen context, screenshot handling and pointing behavior.
-
-<img src="assets/rivo-screen-context.png" alt="Screen context" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download.*
-
-
-### Desktop bar
-
-Choose the bar position and its behavior after an action.
-
-<img src="assets/rivo-bar-settings.png" alt="Desktop bar" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download.*
-
-
-## Profiles and providers
-
-### Assistant profiles
-
-Select an assistant profile and inspect session, group and response-style choices.
-
-<img src="assets/rivo-personal-assistants.png" alt="Assistant profiles" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download.*
-
-
-### Provider connections
-
-Inspect the provider setup without exposing saved credentials.
-
-<img src="assets/rivo-connections.png" alt="Provider connections" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download.*
-
+<img src="assets/rivo-settings-asistente.png" alt="Assistant settings" width="380">
 
 ## Updates
 
-### Update readiness
-
-Inspect a ready-to-install update and its restart control.
-
-<img src="assets/rivo-update-flow.png" alt="Update readiness" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download. Update version/status are simulated QA state, not a release announcement.*
-
-
-## Onboarding
-
-### Choose a working mode
-
-Start setup by choosing the working mode and language preference.
-
-<img src="assets/rivo-onboarding-mode.png" alt="Choose a working mode" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download.*
-
-
-### Connect providers
-
-Inspect setup connection state before proceeding.
-
-<img src="assets/rivo-onboarding-providers.png" alt="Connect providers" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download. Connection and response state are test fixtures.*
-
-
-### Microphone setup
-
-Choose a microphone and test its activation behavior.
-
-<img src="assets/rivo-onboarding-microphone.png" alt="Microphone setup" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download.*
-
-
-### Practice before use
-
-Try the application controls in the setup practice step.
-
-<img src="assets/rivo-onboarding-practice.png" alt="Practice before use" width="360">
-
-*Archived native application QA; Spanish/dark. Versions vary across this archive; use Releases for the current download. Connection and response state are test fixtures.*
-
-
-## Coverage and implementation notes
-
-| Area | Coverage boundary |
-| --- | --- |
-| Voice, literal dictation and Windows actions | Configuration and onboarding are pictured. The QA captures do not prove live speech recognition or a completed desktop action. |
-| Screen context and assistant profiles | Settings are pictured; no private desktop content or conversation is published. |
-| Provider and update flows | Connection and update statuses come from isolated QA state. They are not evidence of a paid provider request or a newly released version. |
-| Current installer | Use [Releases](https://github.com/excelenciaempire/rivo-releases/releases/latest). The tour contains historical UI versions. |
+Rivo checks this repository for new versions and installs them when you restart it. Release notes are on the [releases page](https://github.com/excelenciaempire/rivo-releases/releases).
 
 [Back to overview](README.md)

@@ -1,48 +1,97 @@
-# Rivo by Riverz
+<div align="center">
 
-**A Windows assistant for voice requests, dictation and desktop context.**
+<img src="assets/rivo-mark.svg" alt="Rivo" width="72">
 
-[Download and release files](https://github.com/excelenciaempire/rivo-releases/releases/latest) · [Engineering](ENGINEERING.md) · [Contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
+# Rivo
 
-## Inside the application
+**Point at your screen, say what you want, and your agent sees exactly what you mean.**
 
-[Explore the feature tour](FEATURES.md) · [Capture provenance](SCREENSHOTS.md)
+Circle something, underline it or draw an arrow. Rivo captures that spot, writes down what you said, reads the text under your stroke, and hands it all to Claude Code, Codex or any chat.
 
-<p>
-  <img src="assets/rivo-asistente.png" alt="Rivo assistant settings" width="320">
-  <img src="assets/rivo-voz.png" alt="Rivo voice and shortcut settings" width="320">
+<a href="https://github.com/excelenciaempire/rivo-releases/releases/latest/download/Rivo-Setup.exe"><img src="https://img.shields.io/badge/Download%20for%20Windows-0b0b0c?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows"></a>
+&nbsp;
+<a href="https://github.com/excelenciaempire/rivo-releases/releases/latest"><img src="https://img.shields.io/github/v/release/excelenciaempire/rivo-releases?style=for-the-badge&label=version&color=ff8a00" alt="Latest version"></a>
+
+Free · Windows 10 and 11 · No account, no keys
+
+</div>
+
+<br>
+
+<p align="center">
+  <img src="assets/rivo-hero.png" alt="Rivo open over a web page: the price is circled in orange and the tray at the top shows three captures, each with what was said and what the stroke surrounds" width="100%">
 </p>
 
-Archived native Rivo v1.29.2 QA captures: assistant settings and voice controls. Spanish/dark interface with isolated test defaults.
+## How it works
 
-[Capture provenance](SCREENSHOTS.md)
+| | |
+| --- | --- |
+| **1. Press Ctrl three times** | The Rivo bar drops from the top of the screen. Your clicks keep working. |
+| **2. Draw and talk** | Circle, underline, box or arrow, and say what you want. Each stroke becomes a card. |
+| **3. Hand it over** | **Copy all** pastes the pictures and the text in any chat or terminal. Connected agents get it directly. |
 
-### Setup and desktop context
+## Every card explains itself
 
-<p>
-  <img src="assets/rivo-onboarding-mode.png" alt="Choose a working mode" width="360">
-  <img src="assets/rivo-onboarding-practice.png" alt="Practice before use" width="360">
-  <img src="assets/rivo-screen-context.png" alt="Screen context" width="360">
+Rivo tells your agent what your stroke means, not just where it is. Each card carries what you said and a sentence like *"a circle around 'Descargar para Windows'"* or *"an arrow from 'Revenue' down to 'Recent Activity'"*. The text comes from Windows accessibility first and from on-device OCR when an app doesn't expose it.
+
+<p align="center">
+  <img src="assets/rivo-tray.png" alt="The Rivo tray with three cards and the Copy all button" width="640">
 </p>
 
-Archived native QA views: mode setup, practice and screen-context settings. Spanish/dark with test state.
+## What lands in your chat
 
-[All 11 views and their operating boundaries](FEATURES.md).
+**Copy all** puts every capture on the clipboard as a picture with its caption on top, plus a text version that names each image file, so it also works in a terminal.
 
-## My contribution
+<p align="center">
+  <img src="assets/rivo-paste.png" alt="Three pasted captures, each captioned with what was said and the gesture: a circle around 'Tu agente ya tiene el código.', a circle around 'Descargar para Windows', a circle around 'para siempre'" width="100%">
+</p>
 
-I develop the application workflow, Windows interaction, speech/provider integrations, settings, onboarding and packaging.
+## Built for coding agents
 
-Rivo supports typed or spoken requests, literal dictation and selected screen context. Dictation inserts words as text instead of interpreting them as desktop commands. Other assistant requests use structured intent and Windows tools to act on supported targets.
+Connect Claude Code and Codex with one click. Then ask your agent to *"look at what I'm pointing at"*: it waits while you draw and receives each capture with your note and the gesture sentence.
 
-**Python · Windows UI Automation · Speech integrations**
+<p align="center">
+  <img src="assets/rivo-settings-agentes.png" alt="Agents settings: Claude Code and Codex connected" width="380">
+  <img src="assets/rivo-settings-general.png" alt="General settings: Ctrl x3 shortcut, start with Windows, language and sounds" width="380">
+</p>
 
-**All my development work presented here was done with AI assistance.** I use programming and software engineering fundamentals to define requirements, review code, test behavior and take responsibility for technical decisions.
+## Your voice stays on your PC
 
-## Distribution
+Notes and dictation are transcribed on your computer, without internet. What you point at stays on your PC until you paste it somewhere or a connected agent asks for it.
 
-This repository distributes Windows installers and update metadata; the application source is private. See [the release page](https://github.com/excelenciaempire/rivo-releases/releases/latest) for the current version. The implementation targets Windows 10/11 x64.
+<p align="center">
+  <img src="assets/rivo-settings-voz.png" alt="Voice settings: microphone, on-device transcription, push-to-talk shortcut" width="380">
+  <img src="assets/rivo-settings-senalar.png" alt="Pointing settings: listen while pointing, open from Print Screen" width="380">
+</p>
 
-Local dictation and cloud-assisted features have different requirements. Optional providers use each user's configuration and may charge for requests. Screen context and audio may be sent to the selected provider when those capabilities are enabled.
+<details>
+<summary><b>More: assistant mode and first run</b></summary>
+<br>
 
-Release assets are publicly available. Installer signing and clean-machine behavior have not been independently verified in this case study.
+With your own TypeSafe and Groq keys, Rivo also becomes a voice assistant that carries out actions on your PC. It's optional; pointing, voice notes and agents work without it.
+
+<p align="center">
+  <img src="assets/rivo-settings-asistente.png" alt="Assistant settings: mode and optional provider keys" width="380">
+  <img src="assets/rivo-first-run.png" alt="First run: choose the pointing shortcut" width="380">
+</p>
+
+</details>
+
+## Download
+
+1. Download **[Rivo-Setup.exe](https://github.com/excelenciaempire/rivo-releases/releases/latest/download/Rivo-Setup.exe)** and run it.
+2. Press **Ctrl three times** anywhere to start pointing.
+
+Rivo updates itself from this repository. Every version and its notes are on the [releases page](https://github.com/excelenciaempire/rivo-releases/releases). The interface is in Spanish; Rivo listens and answers in your language.
+
+## About these images
+
+Taken from Rivo 1.32.0 on a real web page ([riverzai.com/rivo](https://riverzai.com/rivo)). The ink, the tray, the captions and the gesture sentences were drawn by Rivo's own code; the settings windows are the app's real interface with test settings, so no personal data appears. More detail in [FEATURES.md](FEATURES.md) and [ENGINEERING.md](ENGINEERING.md).
+
+## About the project
+
+I build Rivo end to end: the pointing layer and tray, gesture reading, voice, Windows integration, the agent connection, settings, onboarding, packaging and updates. **Python · Windows UI Automation · on-device speech and OCR · MCP**.
+
+All my development work here was done with AI assistance. I use programming and software-engineering fundamentals to define requirements, review code, test behavior and take responsibility for technical decisions. This repository distributes the installers and update files; the source code is private.
+
+[Contact](https://github.com/excelenciaempire/riverz-showcase/issues/new?title=Professional%20inquiry)
